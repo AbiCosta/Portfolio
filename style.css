@@ -17,6 +17,7 @@ html {
 
 p {
   color: rgb(85, 85, 85);
+  cursor: default;
 }
 
 /* TRANSITION */
@@ -192,6 +193,7 @@ section {
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
+  cursor: default;
 }
 
 .title {
@@ -211,6 +213,10 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
+}
+
+.details-container h3{
+    cursor: default;
 }
 
 /* BUTTONS */
@@ -273,6 +279,10 @@ section {
   margin-top: 2rem;
 }
 
+.section__text__p1{
+    cursor: default;
+}
+
 .about-details-container {
   justify-content: center;
   flex-direction: column;
@@ -316,6 +326,10 @@ section {
 
 /* EXPERIENCE SECTION */
 
+.title, .section__text__p1{
+    cursor: default;
+}
+
 #experience {
   position: relative;
 }
@@ -325,6 +339,7 @@ section {
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
+  cursor: default;
 }
 
 .experience-details-container {
@@ -345,7 +360,7 @@ section {
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  cursor: default;
   gap: 0.5rem;
 }
 
